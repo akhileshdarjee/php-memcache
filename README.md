@@ -18,6 +18,6 @@ OR
 Create a new PHP file with below content & run it in your browser
 ```bash
 <?php
-	phpinfo();
+  phpinfo();
 ?>
 ```
