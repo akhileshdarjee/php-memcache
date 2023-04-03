@@ -1,0 +1,13 @@
+# Installation
+sudo apt update
+sudo apt install memcached
+sudo apt install php5-memcached
+sudo service apache2 restart
+
+# Verifying
+ps aux | grep memcached
+netstat -ap | grep 11211
+
+<?php
+	phpinfo();
+?>
